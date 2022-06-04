@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+:root{
+  --Bg-heading: hsl(228, 15%, 38%);
+  --Bg-light: hsl(348, 100%, 66%);
+  --Bg-body:hsl(0, 0%, 94%);
+  --Bg-text: hsl(258, 9%, 32%);
+  --Bg-text-span: hsl(258, 14%, 77%);
+  --Bg-Tittle: hsl(0, 0%, 100%);
+
+  font-size: 62.5%;
+}
+fieldset{
+  border: none;
+}
+body{
+  background-color: var(--Bg-body);
+}
+body::before {
+ content: '';
+ width: 100%;
+ height: 43rem;
+ position: absolute;
+ top: 0;
+ left: 0;
+ z-index: -1;
+ background-color: var(--Bg-heading);
+}
+
+.page {
+  width: 73.6rem;
+  margin: auto;
+}
+header{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+  margin-top: 11.9rem;
+  color: #fff;
+}
+header h1{
+  font-family: 'Staatliches';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 4.8rem;
+  line-height: 6rem;
+  margin-bottom: 1.8rem;
+ 
+}
+
+
+header p {
+  max-width: 40rem ;
+  margin-bottom: 5.8rem;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 3rem;
+  
+}
+
+.container{
+  width: 75rem;
+  /* height: 1084px; */
+  margin: 0 auto;
+  background-color: #FFF;
+  border-radius: 2rem 2rem 0 0;
+
+}
+form{
+  padding: 6.4rem;
+}
+form legend{
+  display: inline-block;
+  width: 100%;
+  font-family: 'Staatliches';
+  font-weight: 400;
+  font-size: 2.4rem;
+  line-height: 3.4rem;
+  color: var(--Bg-heading);
+  border-bottom: 1px solid #E6E6F0;
+  padding-bottom: 1.6rem;
+}
+.name {
+  display: flex;
+  gap: 2.2rem;
+  margin-bottom: 2.0rem;
+}
+.name label{
+  display: inline-block;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  margin: 5.6rem 0 8rem;
+  color: var(--Bg-text);
+}
+.name input{
+  width: 30rem;
+  height: 5.6rem;
+  background-color: #fafafc;
+  border: 1px solid #E6E6F0;
+  border-radius: .8rem;
+}
+ 
+.wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: .8rem;
+}
+
+.input{
+  display: flex;
+  flex-direction: column;
+}
+.input label{
+  display: flex;
+  align-items: center;
+  gap: .9rem;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  margin-bottom: .8rem;
+  color: var(--Bg-text);
+}
+.input label span{
+  color: var(--Bg-text-span);
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+.input input{
+  height: 5.6rem;
+  background-color: #fafafc;
+  border: 1px solid #E6E6F0;
+  border-radius: .8rem;
+}
+
+.input > input{
+  margin-bottom: 1rem;
+}
+.fieldset{
+  margin-top: 3.1rem;
+}
+.fieldset label{
+  margin-top: 4rem;
+  
+}
+.timer{
+  display: flex;
+  justify-content: space-between;
+}
+fieldset h2{
+font-family: 'Staatliches';
+font-style: normal;
+font-weight: 400;
+font-size: 2rem;
+line-height: 3.4rem;
+margin-top: 4rem;
+margin-bottom: 1.5rem;
+color: var(--Bg-heading);
+}
+.date, 
+.time{
+  display: flex;
+  flex-direction: column;
+}
+.date label{
+  display: flex;
+  align-items: center;
+  gap: .9rem;
+  margin-bottom: .9rem;
+}
+.date label, .time label {
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.4rem;
+  color: var(--Bg-text);
+}
+
+.date span{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1.2rem;
+  line-height: 2.0rem;
+  color: #C1BCCC;
+}
+
+.date input{
+  width: 30rem;
+  height: 5.6rem;
+  background-color: #fafafc;
+  border: 1px solid #E6E6F0;
+  border-radius: .8rem;
+  padding: 1rem;
+}
+
+.time input{
+  margin-top: .8rem;
+  width: 14rem;
+  height: 5.6rem;
+  background-color: #fafafc;
+  border: 1px solid #E6E6F0;
+  border-radius: .8rem;
+  padding: 1rem;
+}
+
+footer{
+  width: 75rem;
+  height: 16rem;
+  background: var(--Bg-heading);
+  border-radius: 0 0 2rem 2rem;
+  margin-bottom: 2.5rem;
+}
+
+footer button{
+  width: 60rem;
+  height: 5.5rem;
+  background-color: var(--Bg-light);
+  border: none;
+  border-radius: 2rem;
+  margin-inline: 7.1rem;
+  margin-top: 5rem;
+  color: #FFF;
+  font-family: 'Staatliches';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2rem;
+  line-height: 2.6rem;
+  transition: all 300ms;
+  cursor: pointer;
+}
+  
+footer button:hover{
+  background:rgb(251, 61, 99);
+
+}
+

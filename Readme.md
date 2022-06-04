@@ -1,0 +1,2 @@
+<h1>Formulário Explorer</h1>
+<p>Projeto desenvolvido para colocar em prática conhecimentos sobre Html e css adquiridos no programa Explorer da Rocketseat, o projeto não está responsivo, foi focado bastante no uso de medidas relativas e reprodução de layout.</p>
