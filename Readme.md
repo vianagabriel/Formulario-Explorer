@@ -1,7 +1,8 @@
 <h1>Formulário Explorer</h1>
 
-<a href="https://vianagabriel.github.io/Formulario-Explorer/">Link do formulário</a>
 <img src="./images/Captura de tela 2022-06-07 193322.png" alt="">
+<br>
+<a href="https://vianagabriel.github.io/Formulario-Explorer/">Link do formulário</a>
 
 <p>Projeto desenvolvido para colocar em prática conhecimentos sobre Html e css adquiridos no programa Explorer da Rocketseat, o projeto não está responsivo, foi focado bastante no uso de medidas relativas e reprodução de layout.</p>
 
